@@ -7,76 +7,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Hackathon</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Link inter google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header">
-        <div class="logo">
-            <img class="logo image" src="./images/logo.png" alt="Odin Hackathon logo">
-            <div class="logo text">Odin Hackathon</div>
+    <div class="content">
+        <div class="header">
+            <div class="logo">
+                <img class="logo image" src="./images/logo.png" alt="Odin Hackathon logo">
+                <div class="logo text">Odin Hackathon</div>
+            </div>
+            <nav class="nav">
+                <a href="#">About</a>
+                <a href="#">Teams</a>
+                <a href="#">Rules</a>
+            </nav>
         </div>
-        <nav class="nav">
-            <a href="#">About</a>
-            <a href="#">Teams</a>
-            <a href="#">Rules</a>
-        </nav>
-    </div>
 
-    <div class="main">
-        <div class="main left">
-            <h1>Hackathons are awsome!</h1>
-            <p>Welcome coders, hackers and designers to the Odin Hackathon, were the goal is to collaborate to create
-                functioning software by the end of the code sprint.</p>
-            <button>Sign up</button>
-        </div>
-        <div class="main right">
-            <img class="pc-image" src="./images/Computer.svg" alt="PC vector image">
-            <img class="bg-image" src="./images/bg.svg" alt="Background to pc image">
-        </div>
-    </div>
-
-    <div class="overview">
-        <h2>overview</h2>
-        <div class="cards">
-            <div class="card">
-                <img src="./images/collaborate.svg" alt="Two people collaborating">
-                <div class="phase">Phase 1</div>
-                <h3 class="card heading">Collaborate</h3>
-                <p class="card description">Create a team and work together to achieve greater results.</p>
+        <div class="main">
+            <div class="main-left">
+                <div class="main-content">
+                    <h1>Hackathons are Awsome!</h1>
+                    <p>Welcome coders, hackers and designers to the Odin Hackathon, were your team will collaborate
+                        to
+                        create
+                        functioning software by the end of the code sprint.</p>
+                    <button>Sign up</button>
+                </div>
+            </div>
+            <div class="main-right">
+                <!-- <img class="pc-image" src="./images/Computer.svg" alt="PC vector image"> -->
+                <!-- <img class="bg-image" src="./images/bg.svg" alt="Background to pc image"> -->
+                <img class="pc-image" src="./images/pc-image2.png" alt="Background to pc image">
             </div>
         </div>
-        <div class="card">
-            <img src="./images/innovate.svg" alt="Three people innovating">
-            <div class="phase">Phase 2</div>
-            <h3 class="card heading">Innovate</h3>
-            <p class="card description">Create something new or improve something old.</p>
-        </div>
-        <div class="card">
-            <img src="./images/accelerate.svg" alt="Two people programming">
-            <div class="phase">Phase 3</div>
-            <h3 class="card heading">accelerate</h3>
-            <p class="card description">It’s time to sprint, get coding and go go go.</p>
-        </div>
-        <div class="card">
-            <img src="./images/celebrate.svg" alt="Two people celebrating">
-            <div class="phase">Phase 4</div>
-            <h3 class="card heading">Celebrate</h3>
-            <p class="card description">There can only be one winner, so get competitive.</p>
-        </div>
-    </div>
 
-    <div class="quote">“Make it work, make it right, make it fast.” <small>– Kent Beck</small></div>
-    <div class="action">
-        <img src="./images/calander.png" alt="Two people with a calender">
-        <div class="phase">First step</div>
-        <button>Sign up</button>
-    </div>
+        <div class="overview">
+            <h2>Overview</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-border">
+                        <img class="card-image" src="./images/collaborate.svg" alt="Two people collaborating">
+                        <div class="card-description-box">
+                            <div class="phase">PHASE 1</div>
+                            <h3 class="card-heading">Collaborate</h3>
+                            <p class="card-description">Create a team and work together to achieve greater results.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-border">
+                        <img class="card-image" src="./images/innovate.svg" alt="Three people innovating">
+                        <div class="card-description-box">
+                            <div class="phase">PHASE 2</div>
+                            <h3 class="card-heading">Innovate</h3>
+                            <p class="card-description">Create something new or improve something old.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-border">
+                        <img class="card-image" src="./images/accelerate.svg" alt="Two people programming">
+                        <div class="card-description-box">
+                            <div class="phase">PHASE 3</div>
+                            <h3 class="card-heading">Accelerate</h3>
+                            <p class="card-description">It’s time to sprint, get coding and go go go.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-border">
+                        <img class="card-image three" src="./images/celebrate.svg" alt="Two people celebrating">
+                        <div class="card-description-box">
+                            <div class="phase">PHASE 4</div>
+                            <h3 class="card-heading">Celebrate</h3>
+                            <p class="card-description">There can only be one winner, so get competitive.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <footer>
-        <div></div>
-        <div class="copyright"><small>Copyright 2022 &copy; Aarons Landing Page</small></div>
-        <a href="#">CODE</a>
-    </footer>
+        <div class="quote">
+            <div class="quote-text">“Make it work, make it right, make it fast.”<small> – Kent Beck</small></div>
+        </div>
+
+        <div class="action">
+            <img class="action-image" src="./images/calander.png" alt="Two people with a calender">
+            <div class="action-box">
+                <div class="action-text">Call to action!</div>
+                <div class="phase">FIRST STEP</div>
+                <button>Sign up</button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="attributions">
+                <a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Freepik
+                    -
+                    Flaticon</a>
+                <a href="https://iradesign.io">Illustrations by IRA Design</a>
+            </div>
+            <div class="copyright"><small>Copyright &copy; 2022</small></div>
+            <a href="#">SOURCE CODE</a>
+        </footer>
+    </div>
 </body>
 
 </html>
